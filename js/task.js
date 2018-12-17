@@ -1,7 +1,3 @@
-function getVal() {
-    var text = document.getElementById('text').value;
-    var button = document.getElementById('button');
-    alert (text);
-}
-
+var text = document.getElementById('text');
+var button = document.getElementById('button');
 console.log(text, button);
