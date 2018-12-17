@@ -1,4 +1,3 @@
-var x = 10;
-var y = 20;
-
-alert (x + y);
+var text = document.getElementById('text');
+var button = document.getElementById('button');
+console.log(text, button);
