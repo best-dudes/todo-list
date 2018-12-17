@@ -1,4 +1,9 @@
-var x = 10;
-var y = 20;
+document.getElementById('text');
+document.getElementById('button');
+function getVal() {
+    var text = document.getElementById('text').value;
+    alert (text);
+}
 
-alert (x + y);
+console.log(text);
+console.log(button);
