@@ -1,3 +1,7 @@
-var text = document.getElementById('text');
-var button = document.getElementById('button');
-console.log(text, button);
+var textEl = document.getElementById('text');
+var buttonEl = document.getElementById('button');
+
+function getVal() {
+  var text = textEl.value;
+  console.log(text);
+}
