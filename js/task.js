@@ -5,4 +5,3 @@ function onClick() {
   paragraph.appendChild(t);
   document.getElementById('wrapper').appendChild(paragraph);
 }
-
