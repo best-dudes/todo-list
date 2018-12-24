@@ -1,4 +1,4 @@
-function myFunction() {
+function onClick() {
   var text = document.getElementById('text').value;
   var paragraph = document.createElement('p');
   var t = document.createTextNode(text);
