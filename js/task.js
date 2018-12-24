@@ -1,8 +1,8 @@
-
 function myFunction() {
   var text = document.getElementById('text').value;
-  var para = document.createElement("P");
+  var paragraf = document.createElement("p");
   var t = document.createTextNode(text);
-  para.appendChild(t);
-  document.getElementById("tag").appendChild(para);
+  paragraf.appendChild(t);
+  document.getElementById("wrapper").appendChild(paragraf);
 }
+
